@@ -360,8 +360,9 @@ server <- function(input, output){
       GTD_clean %>%
       group_by(attacktype1_txt, iyear,region) %>%
       summarise(count = n())
-    #change the sort
-    GTD_type$region <- factor(GTD_type$region, levels = c("Iraq", "South Asia", "Other Regions"))
+    # Adjust the order
+    GTD_type$region <- factor(GTD_type$region, 
+                              levels = c("Iraq", "South Asia", "Other Regions"))
     
     ggplot(data = subset(GTD_type, attacktype1_txt == input$type_choice)) + 
       geom_line(aes(x = iyear, y = count)) + 
