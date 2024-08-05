@@ -7,7 +7,7 @@ Link to the official website of START: https://www.start.umd.edu/gtd/
 <br>Database and Codebook can be accessed on the website.
 The database is also included in the data folder. Please use git lfs to fetch the csv file because its size exceeds the 100MB limit.
 
-<br> The dashboard contains a spatial map showing global distribution of terrorist attacks from 1970 to 2020, bar plots demonstrating patterns in attack actors and attack types, and line plots for time series abalyses.
+The dashboard contains a spatial map showing global distribution of terrorist attacks from 1970 to 2020, bar plots demonstrating patterns in attack actors and attack types, and line plots for time series abalyses.
 
 Here are tha packages in R involved:<br>
 viridis <br>
