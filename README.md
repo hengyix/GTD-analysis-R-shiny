@@ -3,7 +3,7 @@ Global Terrorism Database (GTD) is a database including information on terrorist
 
 Link to the official website of START: https://www.start.umd.edu/gtd/
 <br>Database and Codebook can be accessed on the website.
-The dataset is included in the data folder. Please use git lfs to fetch the csv file because its size exceeds the 100MB limit.
+The database is also included in the data folder. Please use git lfs to fetch the csv file because its size exceeds the 100MB limit.
 
 The visualization is interactive and demonstrated using shiny application: https://hengyix.shinyapps.io/global-terrorism-analysis/
 <br> The dashboard contains a spatial map showing global distribution of terrorist attacks from 1970 to 2020, bar plots demonstrating patterns in attack actors and attack types, and line plots for time series abalyses.
