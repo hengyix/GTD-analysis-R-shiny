@@ -10,14 +10,4 @@ The database is also included in the data folder. Please use git lfs to fetch th
 The dashboard contains a spatial map showing global distribution of terrorist attacks from 1970 to 2020, bar plots demonstrating patterns in attack actors and attack types, and line plots for time series analyses.
 
 Here are tha packages in R involved:<br>
-viridis <br>
-tidyverse
-<br>ggrepel
-<br>shinythemes
-<br>shiny
-<br>maps
-<br>terra
-<br>shinydashboard
-<br>plotly
-<br>rlang
-<br>RColorBrewer
+viridis, tidyverse, ggrepel, shinythemes, shiny, maps, terra, shinydashboard, plotly, rlang, RColorBrewer
